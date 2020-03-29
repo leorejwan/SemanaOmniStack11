@@ -1,3 +1,5 @@
+//TESTE COMMIT
+
 const express = require('express');
 
 const OngController = require('./controllers/OngController');
@@ -10,6 +12,7 @@ const sessionController = require('./controllers/SessionController');
 // const connection = require('./database/connection');
 
 const routes = express.Router();
+
 
 // routes.get('/ongs', async (request, response) => { //listagem 
 //     const ongs = await connection('ongs').select('*');
